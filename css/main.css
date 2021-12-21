@@ -1,0 +1,84 @@
+/* Vazir Font Add */
+
+@font-face {
+    font-family: "Vazir";
+    src: 
+        url(../fonts/Vazir-Regular.eot),
+        url(../fonts/Vazir-Regular.woff2),
+        url(../fonts/Vazir-Regular.woff),
+        url(../fonts/Vazir-Regular.ttf);
+    
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Vazir";
+    src: 
+        url(../fonts/Vazir-Bold.eot),
+        url(../fonts/Vazir-Bold.woff2),
+        url(../fonts/Vazir-Bold.woff),
+        url(../fonts/Vazir-Bold.ttf);
+    
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Vazir";
+    src: 
+        url(../fonts/Vazir-Thin.eot),
+        url(../fonts/Vazir-Thin.woff2),
+        url(../fonts/Vazir-Thin.woff),
+        url(../fonts/Vazir-Thin.ttf);
+    
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Vazir";
+    src: 
+        url(../fonts/Vazir-Lighy.eot),
+        url(../fonts/Vazir-Lighy.woff2),
+        url(../fonts/Vazir-Lighy.woff),
+        url(../fonts/Vazir-Lighy.ttf);
+    
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Vazir";
+    src: 
+        url(../fonts/Vazir-Medium.eot),
+        url(../fonts/Vazir-Medium.woff2),
+        url(../fonts/Vazir-Medium.woff),
+        url(../fonts/Vazir-Medium.ttf);
+    
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Vazir";
+    src: 
+        url(../fonts/Vazir-Black.eot),
+        url(../fonts/Vazir-Black.woff2),
+        url(../fonts/Vazir-Black.woff),
+        url(../fonts/Vazir-Black.ttf);
+    
+    font-weight: 900;
+}
+
+/* Base Styles */
+
+* {
+    direction: rtl;
+    font-family: "Vazir";
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
