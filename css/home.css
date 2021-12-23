@@ -1,8 +1,6 @@
 /* Header Styling */
 
-header {
-
-}
+header {}
 
 header nav {
     display: flex;
@@ -52,12 +50,10 @@ header nav .nav-left a {
 
 .slider {
     position: relative;
-    
-}
-
-.slider .slides {
 
 }
+
+.slider .slides {}
 
 .slider .slides .item {
     position: relative;
@@ -79,7 +75,7 @@ header nav .nav-left a {
 .slider .slides .active {
     display: block;
     animation-name: fadeIn;
-    animation-duration: 2s; 
+    animation-duration: 2s;
 }
 
 .slider .buttons {
@@ -97,4 +93,107 @@ header nav .nav-left a {
 
 .slider .buttons i:hover {
     color: rgba(255, 255, 255, 0.8);
+}
+
+
+/* Website Product Section Stylings */
+
+.product-sec-new {
+    padding: 20px 10px;
+    font-size: 1em;
+}
+
+.product-sec-new .shopping-card {
+    text-align: center;
+    box-shadow: 0px 8px 0px 2px rgba(0, 0, 0, 0.2);
+    margin: 10px 15px;
+    border-radius: 5px;
+    padding: 10px; 
+}
+
+/* Card Image Part Styling */
+.shopping-card .img-sec {
+    position: relative;
+}
+
+.shopping-card .img-sec img {
+    width: 60%;
+}
+
+.shopping-card .img-sec .hot-offer {
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    background-color: #e74c3c;
+    color: #ecf0f1;
+    border-radius: 5px;
+    padding: 2px 4px;
+    font-size: 0.9;
+}
+
+.shopping-card .img-sec .stars {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    color: #f1c40f;
+    padding: 2px 4px;
+
+}
+
+
+
+.shopping-card .title {
+    color: #333;
+    margin: 15px;
+}
+
+
+/* Card Buttons Styling */
+
+.shopping-card .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+.shopping-card .buttons .right {}
+
+.shopping-card .buttons .right .price {
+    color: #666;
+    font-weight: bold;
+}
+
+.shopping-card .buttons .left {
+    display: flex;
+}
+
+.shopping-card .buttons .left .extend-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+    background-color: #2ecc71;
+    width: 40px;
+    border-radius: 25px;
+    color: #ecf0f1;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: 0.75s;
+}
+
+.shopping-card .buttons .left .extend-btn:hover {
+    width: 130px;
+}
+
+.shopping-card .buttons .left .extend-btn:hover .b-text {
+    display: block;
+}
+
+.shopping-card .buttons .left .extend-btn .b-text {
+    display: none;
+}
+
+.shopping-card .buttons .left .extend-btn .b-icon {
+    color: #ecf0f1;
 }
