@@ -103,7 +103,7 @@ header nav .nav-left a {
     font-size: 1em;
 }
 
-.product-sec-new .shopping-card {
+.shopping-card {
     text-align: center;
     box-shadow: 0px 8px 0px 2px rgba(0, 0, 0, 0.2);
     margin: 10px 15px;
@@ -289,4 +289,35 @@ header nav .nav-left a {
     border-radius: 5px;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
     width: 77%;
+}
+
+/* @media screen and (max-width: 1025px) {
+    
+} */
+
+@media screen and (max-width: 426px) {
+    .banner {
+        display: none;
+    }
+}
+
+/*  Dragble Products Carousel Stylings   */
+.dragble-list img {
+    width: 70% !important;
+    margin: auto;
+}
+
+/* To Fix rtl Issue In Owl Dragble Product Section */
+.owl-stage-outer {
+    direction:ltr;
+}
+
+.dragble-list .title {
+    padding: 0px 20px;
+    padding-bottom: 20px;
+}
+
+.dragble-list .title span {
+    font-size: 1.2em;
+    border-bottom: 2px solid #e74c3c;
 }
