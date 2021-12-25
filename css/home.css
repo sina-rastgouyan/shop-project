@@ -321,3 +321,61 @@ header nav .nav-left a {
     font-size: 1.2em;
     border-bottom: 2px solid #e74c3c;
 }
+
+
+/* Footer Styling */
+
+.footer {
+    background-color: #7f8c8d;
+    font-size: 1em;
+}
+
+.footer .right {
+    padding: 40px;
+}
+
+.footer .right .title {
+    padding: 10px 0px;
+    font-size: 1.2em;
+    color: #ecf0f1;
+}
+
+.footer .right .des {
+    color: #ecf0f1;
+    line-height: 1.9em;
+    font-size: 0.9em;
+}
+
+.footer .left {
+    padding: 40px;
+}
+
+.footer .left .title {
+    padding: 10px 0px;
+    font-size: 1.2em;
+    color: #ecf0f1;
+}
+
+.footer .left .socials {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ecf0f1;
+    font-size: 1.4em;
+    margin-top: 20px;
+}
+
+.footer .left .socials a {
+    color: #bdc3c7;
+}
+
+.footer .left .socials a:hover {
+    color: #2980b9;
+}
+
+.footer .bottom {
+    background-color: #34495e;
+    text-align: center;
+    padding: 15px;
+    color: #bdc3c7;
+}
