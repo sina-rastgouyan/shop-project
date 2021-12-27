@@ -94,6 +94,12 @@
     text-align: center;
 }
 
+@media screen and (max-width: 1025px) {
+    .login-img-container {
+        display: none;
+    }
+}
+
 .login-img-container img {
     width: 100%;
 
